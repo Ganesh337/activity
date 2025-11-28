@@ -1,0 +1,110 @@
+Agile Development – food delivery app
+Product Vision – fast and affordable food delivery
+Target Group:
+working professional, hostellers, families
+
+ 
+Needs/Problems:
+Difficult to check nearby restaurants that match their budget and taste
+Lack of clarity in charges (e.g., restaurants charge, delivery fee and so on)
+Poor UX on existing platforms, especially mobile
+Restaurant menus are sometimes outdated or inconsistent across platforms.
+ 
+Product:
+Browse restaurants based on location, cuisine, ratings, and offers
+Search for food items and restaurants
+Add items to a cart and place orders with secure payment
+Track delivery in real-time
+Access order history and reorder easily
+Apply coupons, offers, and loyalty points
+ 
+Business Goals:
+Acquire 2 million active users in the first 12 months
+Onboard 10,000 restaurants across major cities
+Reduce order drop-offs by 25% through better UI & faster checkout
+Achieve revenue from delivery charges
+Ensure average delivery time is under 30 minutes in metro cities
+Improve customer retention by 20% using loyalty programs
+Reduce failed payments/issues by 40% via better payment integration
+ 
+Challenges
+Complexity in integrating with delivery partners GPS systems to show accurate live tracking.
+Restaurants use different menu formats and pricing structures, making data standardization difficult.
+Managing high-volume traffic during peak seasons (festivals, holidays)
+Supporting multiple languages and regional preferences
+Predicting delivery time using traffic, restaurant prep time, distance, and peak demand.
+ 
+Ideas
+Voice-assisted booking in native languages
+Offline mode to view past orders and saved addresses
+Smart delivery instructions (leave at gate, security, doorstep)
+Order delay alerts via SMS/WhatsApp
+Quick re-order button for frequent meals
+ 
+MVP (Minimum Viable Product)
+MVP Goals:
+Allow users to search nearby restaurants
+View menu and add items to cart
+Place an order with online payment or COD
+Track order status (Accepted → Preparing → Out for Delivery)
+Basic user login/sign-up
+Save delivery address
+
+ 
+User Story – Search Nearby Restaurants
+
+Story:
+As a hungry user, I want to search nearby restaurants using my location, so that I can quickly find food options available around me.
+
+Acceptance Criteria:
+User can grant location access or enter address manually
+System shows list of nearby restaurants
+Each restaurant card displays name, rating, delivery time, and cuisine
+Filters available (Veg/Non-Veg, rating, delivery time)
+
+User Story – View Menu & Add Items to Cart
+
+Story:
+As a customer, I want to browse a restaurant’s menu and add items to my cart, so that I can choose what I want to order.
+
+Acceptance Criteria:
+Menu displays categories (Starters, Main Course, Desserts, etc.)
+User can increase/decrease item quantity
+Price auto-updates in cart
+Veg/Non-Veg labels shown
+Selected items are saved until order is placed or cleared
+
+User Story – Place Order (Online Payment or COD)
+
+Story:
+As a user, I want to place an order with online payment or Cash on Delivery, so that I can complete my purchase easily.
+
+Acceptance Criteria:
+User reviews order summary, taxes, delivery charges
+User chooses payment method (UPI, card, wallet, COD)
+Payment gateway opens for online payment
+On success, order ID is generated
+
+
+User Story – Track Order Status
+
+Story:
+As a customer, I want to track my order in real time. So that I know when my food will arrive.
+
+Acceptance Criteria:
+Live order timeline visible
+Status auto-updates without page refresh
+Delivery partner details (name, phone, location) shown
+Estimated delivery time displayed
+Notification sent for each stage
+
+User Story – Login / Sign Up
+
+Story:
+As a new user, I want to sign up easily using my phone number or email, so that I can access my orders and saved addresses.
+
+Acceptance Criteria:
+Sign-up using mobile OTP or email
+Secure password handling
+Existing users can log in
+User remains signed in unless they log out
